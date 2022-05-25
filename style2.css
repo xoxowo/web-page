@@ -1,0 +1,92 @@
+html,body{
+    background-color: rgb(245, 243, 243);
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+}
+a{text-decoration: none; color: black;}
+
+.wrap{
+    min-height: 100vh;
+    position : relative;
+    width: 100%;
+}
+
+/* header 영역 */
+
+header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header > nav > li {
+    padding: 5px;
+}
+
+header > nav > li > a:focus{
+    outline: none;
+}
+
+header > nav > li a:hover{
+     color:gray;
+}
+
+/* section 영역 */
+
+section {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+section > div> span{
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.slider-box{
+
+    padding: 40px;
+    padding-left: 100px;
+    width: 500px;
+    height: 400px;
+  
+}
+
+
+
+
+/* footer 영역 */
+
+footer{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid black;
+}
+
+.footer-box{
+    text-align:center;
+    font-size: 0.7em;
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
