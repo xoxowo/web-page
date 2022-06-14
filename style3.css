@@ -62,6 +62,45 @@ section {
     width: 400px;
 }
 
+.container {
+    width: 300px;
+}
+
+.album{
+    width: 300px;
+    height: 360px;
+    overflow: hidden;
+}
+
+.images{
+    display: flex;
+    width: 300px;
+    height: 360px;
+    position: relative;
+}
+
+
+button, button:active, button:focus{
+    font-size: 20px;
+    border: none;
+    color: black; 
+    outline: none;
+}
+
+button:hover{
+    color: gray;
+}
+
+button:disabled{
+    color: yellowgreen;
+}
+
+.prev{
+    float:left;
+}
+.next{
+    float:right;
+}
 
 
 
@@ -69,8 +108,6 @@ section > div> span{
     font-size: 1.9rem;
     font-weight: bold;
 }
-
-
 
 img{
     max-width: 100%;
@@ -82,7 +119,6 @@ img{
     padding-left: 100px;
     width: 500px;
     height: 400px;
-  
 }
 
 
@@ -166,7 +202,7 @@ img{
 }
     
 .ac-container input:checked ~ article.ac-small{
-    height: 65px;
+    height: 60px;
 }
 
 
