@@ -51,9 +51,46 @@ section {
     line-height: 36px;
     width: 100%;
 }
-.main {
-    width: 400px;
+.container {
+    width: 360px;
 }
+
+.album{
+    width: 360px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.images{
+    display: flex;
+    height: 320px;
+    position: relative;
+}
+
+
+button, button:active, button:focus{
+    font-size: 20px;
+    border: none;
+    color: black; 
+    outline: none;
+}
+
+button:hover{
+    color: gray;
+}
+
+button:disabled{
+    color: yellowgreen;
+}
+
+.prev{
+    float:left;
+}
+.next{
+    float:right;
+}
+
+
 
 section > div> span{
     font-size: 1.9rem;
